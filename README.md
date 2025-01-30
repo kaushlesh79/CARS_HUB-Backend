@@ -38,7 +38,7 @@ This is the backend for the Cars Hub Portal, a web application that handles user
 
 ## Folder Structure
 
-\`\`\`
+```
 Car_backend/
 ├── config/                  # Contains database and configuration files
 │   └── db.js                # Database connection logic
@@ -58,7 +58,7 @@ Car_backend/
 ├── server.js                # Main entry point for the server
 ├── package.json             # Project dependencies and scripts
 └── README.md                # This file
-\`\`\`
+````
 
 ## Setup
 
