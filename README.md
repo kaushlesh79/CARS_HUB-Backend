@@ -44,13 +44,10 @@ Car_backend/
 │   └── db.js                # Database connection logic
 ├── controllers/             # Controller functions for each route
 │   └── userController.js    # User-related operations (login, register)
-│   └── carController.js     # Car-related operations (upload, fetch, delete)
 ├── models/                  # Mongoose models for database
 │   └── user.js              # User model (for authentication)
-│   └── car.js               # Car model (for car photos)
 ├── routes/                  # Routes for different API endpoints
 │   └── userRoutes.js        # Routes for user-related actions (login, register)
-│   └── carRoutes.js         # Routes for car-related actions (upload, fetch, delete)
 ├── middleware/              # Middleware functions (authentication, validation)
 │   └── authMiddleware.js    # Middleware for user authentication
 ├── uploads/                 # Folder where uploaded images are stored
